@@ -13,7 +13,7 @@ before_install:
 - wget --content-disposition http://search.maven.org/remotecontent?filepath=org/jacoco/jacoco/0.7.6.201602180812/jacoco-0.7.6.201602180812.zip
 - unzip jacoco-0.7.6.201602180812.zip
 - cd lib
-- mv * ../
+- mv * ../ 
 - cd ..
 - chmod a+x *
 - curl -sL https://raw.githubusercontent.com/travis-ci/artifacts/master/install |
